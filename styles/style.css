@@ -243,6 +243,102 @@ font-weight: 700;
 
 
 
+/* <!-- footer section start  --> */
+footer{
+    background-color: #0B0223;
+    width: 100%;
+    height: 400px;
+}
+.footer{
+    
+    align-items: center;
+    text-align: center;
+}
+.footer-banner{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 500px;
+}
+
+.footer-title{
+    color: #FFF;
+font-size: 45px;
+
+}
+
+.footer-g{
+    color:   #FF42A5 ;
+}
+
+.footer-img{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-title{
+    color: white;
+}
+
+.footer-account{
+    
+
+    display: inline-flex;
+    color: white;
+    text-decoration: none;
+padding: 10px;
+align-items: flex-start;
+gap: 40px;
+}
+
+.footer-links{
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+    width: 70px;
+    height: 50px;
+    
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+    margin-left: 450px;
+}
+
+.birds{
+    color: white;
+    
+}
+
+.terms{
+    
+
+color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-weight: 500;
+display: flex;
+gap: 40px;
+margin-left: 300px;
+}
+
+.copy-right{
+    /* color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+padding: 20px auto 30px auto; */
+
+color: rgba(255, 255, 255, 0.60);
+text-align: center;
+margin-bottom: 300px;
+}
+
+
+/* <!-- footer section end  --> */
+
+
 
 
 
@@ -383,4 +479,45 @@ text-align: center;}
 }
 /* game list end */
     
+/* <!-- footer section start  --> */
+footer{
+    background-color: #0B0223;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.footer{
+    
+    align-items: center;
+    text-align: center;
+}
+.footer-banner{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 80px;
+}
+.footer-account{
+    text-align: center;
+align-items: center;
+gap: 5px;
+}
+
+.footer-links{
+    gap: 25px;
+    width: 20px;
+    height: 20px;
+    
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    margin-left: 90px;
+}
+
+.terms{
+        gap: 5px;
+    margin-left: 5px;
+    }
+
 }
