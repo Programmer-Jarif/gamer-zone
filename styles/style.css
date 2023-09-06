@@ -205,6 +205,40 @@ font-weight: 700;
 }
 /* play section end */
 
+
+/* game list start  */
+.game-list-1{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.game-list-2{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    padding-left: 50px;
+    margin-top: 30px;
+}
+.game-second-list:hover , .game-first-list:hover{
+    /* background-color: #7658da; */
+    border-radius: 30px;
+    border: 2px solid rgb(219, 50, 7);
+}
+
+.game-first-list{
+    display: flex;
+    gap: 20px;
+
+}
+
+.game-second-list{
+    display: flex;
+    gap: 20px;
+}
+/* game list end */
+
 /* main  */
 
 
@@ -309,4 +343,44 @@ text-align: center;}
     bottom: 130px;
     right: 50px;
 }
+
+    /* game list start  */
+.game-list-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    padding-left: 50px;
+    margin-top: 30px;
+}
+.game-list-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    padding-left: 50px;
+    margin-top: 30px;
+}
+.game-second-list:hover , .game-first-list:hover{
+    border-radius: 30px;
+    border: 2px solid rgb(219, 50, 7);
+}
+
+.game-first-list{
+    display: flex;
+    gap: 20px;
+
+}
+
+.game-second-list{
+    display: flex;
+    gap: 20px;
+}
+.again{
+    display: none;
+}
+/* game list end */
+    
 }
