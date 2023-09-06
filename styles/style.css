@@ -166,6 +166,45 @@ text-align: center;
     }
 /* online-games section end */
 
+/* play section start */
+.play-section{
+    display: flex;
+    /* align-items: center; */
+    padding: 30px;
+    margin-top: 50px;
+}
+.play-text{
+    margin-top: 90px;
+    padding-right: 20px;
+}
+.play-title{
+    align-items: center;
+font-size: 48px;
+font-weight: 700;
+}
+.play-title-extra{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.play-description{
+    color: #534C64;
+    align-items: center;
+}
+
+.play-img-1{
+    width: 100%;
+    height: auto;
+}
+.play-img-2{
+    width: 50%;
+    height: auto;
+    position: relative;
+    bottom: 250px;
+    right: 100px;
+}
+/* play section end */
+
 /* main  */
 
 
@@ -246,4 +285,28 @@ text-align: center;
             
         }
         
+        /* play section start */
+.play-section{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* padding: 30px; */
+    margin-top: 50px;
+}
+.play-title{
+    text-align: center;
+font-size: 40px;
+}
+.play-description{
+text-align: center;}
+
+.play-images{
+    padding: 30px;
+}
+
+.play-img-2{
+    position: relative;
+    bottom: 130px;
+    right: 50px;
+}
 }
