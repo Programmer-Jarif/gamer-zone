@@ -68,7 +68,7 @@ padding-left: 50px;
 }
 
 .banner-text{
-    width: 100%;
+    width: 50%;
 }
 .banner-title-1{
     color: #0B0223;
@@ -119,11 +119,54 @@ background-color: #4EC5F7 ;
 
 
 .banner-img{
-    padding-right: 20px;
-    /* width: 100%;
-    height: auto; */
+    
+    width: 100%;
+    height: auto;
 }
 /* banner section end */
+
+/* main  */
+
+/* online-games section start  */
+.online-game{
+    margin-top: 50px;
+}
+    .online-game-text{
+        margin-top: 50px;
+    }
+    .online-game-title{
+        color: #0B0223;
+text-align: center;
+font-size: 48px;
+font-weight: 700;
+    }
+    .online-game-title-extra{
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    }
+
+    .online-game-description{
+        color: #534C64;
+text-align: center;
+
+    }
+    
+
+    .online-game-cards{
+        display: flex;
+        padding: 30px;
+        gap: 20px;
+    }
+    .online-game-cards-img{
+        width: 100%;
+        height: 350px;
+        
+    }
+/* online-games section end */
+
+/* main  */
 
 
 
@@ -135,6 +178,9 @@ background-color: #4EC5F7 ;
 
 /* mobile device */
 @media screen and (max-width:576px) {
+    body{
+        align-items: center;
+    }
     nav{
         display: flex;
         flex-direction: column;
@@ -150,11 +196,13 @@ background-color: #4EC5F7 ;
     }
 
     /* banner  */
+    
     .banner{
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         width: 100%;
+        margin-bottom: 50px;
         }
 
         .banner-text{
@@ -163,9 +211,39 @@ background-color: #4EC5F7 ;
             width: auto;
         }
         .banner-img{
+            width: 100%;
+            height: auto;
         align-items: center;
         
         }
 
+        /* online game  */
+        .online-game{
+            align-items: center;
+        }
+        .online-game-title{
+            color: #0B0223;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 50px;
+        }
+        .online-game-description{
+            color: #534C64;
+    text-align: center;
+    font-size: 15px;
+    
+        }
+        .online-game-cards{
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+            gap: 20px;
+        }
+        .online-game-cards-img{
+            width: 100%;
+            height: auto;
+            
+        }
         
 }
